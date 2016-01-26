@@ -11,7 +11,7 @@
 @interface CenterBgView : BaseProgressView
 - (void)show;
 
-- (void)hide;
+- (void)hide;   
 
 - (void)buildView;
 @end
