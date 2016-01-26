@@ -6,9 +6,9 @@
 //  Copyright © 2016年 Mr Song. All rights reserved.
 //
 
-#import "BaseProjressView.h"
+#import "BaseProgressView.h"
 
-@interface BaseCircleView : BaseProjressView
+@interface BaseCircleView : BaseProgressView
 
 - (void)show;
 

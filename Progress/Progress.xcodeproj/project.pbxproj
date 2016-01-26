@@ -19,6 +19,8 @@
 		519B7F5E1C57455E00C7D8E6 /* BasePointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F561C57455E00C7D8E6 /* BasePointView.m */; };
 		519B7F5F1C57455E00C7D8E6 /* ChildrenCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F581C57455E00C7D8E6 /* ChildrenCircleView.m */; };
 		519B7F601C57455E00C7D8E6 /* BaseWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F5A1C57455E00C7D8E6 /* BaseWaveView.m */; };
+		519B7F691C5748F500C7D8E6 /* BaseProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F681C5748F500C7D8E6 /* BaseProgressView.m */; };
+		519B7F6C1C57492B00C7D8E6 /* BaseBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F6B1C57492B00C7D8E6 /* BaseBgView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		519B7F581C57455E00C7D8E6 /* ChildrenCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildrenCircleView.m; sourceTree = "<group>"; };
 		519B7F591C57455E00C7D8E6 /* BaseWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWaveView.h; sourceTree = "<group>"; };
 		519B7F5A1C57455E00C7D8E6 /* BaseWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWaveView.m; sourceTree = "<group>"; };
+		519B7F671C5748F500C7D8E6 /* BaseProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseProgressView.h; sourceTree = "<group>"; };
+		519B7F681C5748F500C7D8E6 /* BaseProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseProgressView.m; sourceTree = "<group>"; };
+		519B7F6A1C57492B00C7D8E6 /* BaseBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBgView.h; sourceTree = "<group>"; };
+		519B7F6B1C57492B00C7D8E6 /* BaseBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBgView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,10 @@
 		519B7F4E1C57455200C7D8E6 /* util */ = {
 			isa = PBXGroup;
 			children = (
+				519B7F671C5748F500C7D8E6 /* BaseProgressView.h */,
+				519B7F681C5748F500C7D8E6 /* BaseProgressView.m */,
+				519B7F6A1C57492B00C7D8E6 /* BaseBgView.h */,
+				519B7F6B1C57492B00C7D8E6 /* BaseBgView.m */,
 				519B7F531C57455E00C7D8E6 /* BaseCircleView.h */,
 				519B7F541C57455E00C7D8E6 /* BaseCircleView.m */,
 				519B7F551C57455E00C7D8E6 /* BasePointView.h */,
@@ -298,8 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519B7F691C5748F500C7D8E6 /* BaseProgressView.m in Sources */,
 				519B7F601C57455E00C7D8E6 /* BaseWaveView.m in Sources */,
 				519B7F231C57452D00C7D8E6 /* ViewController.m in Sources */,
+				519B7F6C1C57492B00C7D8E6 /* BaseBgView.m in Sources */,
 				519B7F201C57452D00C7D8E6 /* AppDelegate.m in Sources */,
 				519B7F1D1C57452D00C7D8E6 /* main.m in Sources */,
 				519B7F5F1C57455E00C7D8E6 /* ChildrenCircleView.m in Sources */,
