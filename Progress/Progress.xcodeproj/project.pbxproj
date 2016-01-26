@@ -21,6 +21,8 @@
 		519B7F601C57455E00C7D8E6 /* BaseWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F5A1C57455E00C7D8E6 /* BaseWaveView.m */; };
 		519B7F691C5748F500C7D8E6 /* BaseProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F681C5748F500C7D8E6 /* BaseProgressView.m */; };
 		519B7F6C1C57492B00C7D8E6 /* BaseBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F6B1C57492B00C7D8E6 /* BaseBgView.m */; };
+		519B7F6F1C57556500C7D8E6 /* CenterBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F6E1C57556500C7D8E6 /* CenterBgView.m */; };
+		519B7F721C57577200C7D8E6 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F711C57577200C7D8E6 /* WaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,10 @@
 		519B7F681C5748F500C7D8E6 /* BaseProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseProgressView.m; sourceTree = "<group>"; };
 		519B7F6A1C57492B00C7D8E6 /* BaseBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBgView.h; sourceTree = "<group>"; };
 		519B7F6B1C57492B00C7D8E6 /* BaseBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBgView.m; sourceTree = "<group>"; };
+		519B7F6D1C57556400C7D8E6 /* CenterBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterBgView.h; sourceTree = "<group>"; };
+		519B7F6E1C57556500C7D8E6 /* CenterBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterBgView.m; sourceTree = "<group>"; };
+		519B7F701C57577200C7D8E6 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		519B7F711C57577200C7D8E6 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,12 +174,16 @@
 				519B7F6B1C57492B00C7D8E6 /* BaseBgView.m */,
 				519B7F531C57455E00C7D8E6 /* BaseCircleView.h */,
 				519B7F541C57455E00C7D8E6 /* BaseCircleView.m */,
+				519B7F6D1C57556400C7D8E6 /* CenterBgView.h */,
+				519B7F6E1C57556500C7D8E6 /* CenterBgView.m */,
 				519B7F551C57455E00C7D8E6 /* BasePointView.h */,
 				519B7F561C57455E00C7D8E6 /* BasePointView.m */,
 				519B7F571C57455E00C7D8E6 /* ChildrenCircleView.h */,
 				519B7F581C57455E00C7D8E6 /* ChildrenCircleView.m */,
 				519B7F591C57455E00C7D8E6 /* BaseWaveView.h */,
 				519B7F5A1C57455E00C7D8E6 /* BaseWaveView.m */,
+				519B7F701C57577200C7D8E6 /* WaveView.h */,
+				519B7F711C57577200C7D8E6 /* WaveView.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -308,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519B7F6F1C57556500C7D8E6 /* CenterBgView.m in Sources */,
 				519B7F691C5748F500C7D8E6 /* BaseProgressView.m in Sources */,
 				519B7F601C57455E00C7D8E6 /* BaseWaveView.m in Sources */,
 				519B7F231C57452D00C7D8E6 /* ViewController.m in Sources */,
@@ -317,6 +328,7 @@
 				519B7F5F1C57455E00C7D8E6 /* ChildrenCircleView.m in Sources */,
 				519B7F5E1C57455E00C7D8E6 /* BasePointView.m in Sources */,
 				519B7F5D1C57455E00C7D8E6 /* BaseCircleView.m in Sources */,
+				519B7F721C57577200C7D8E6 /* WaveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

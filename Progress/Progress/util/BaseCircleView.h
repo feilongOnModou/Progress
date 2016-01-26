@@ -9,7 +9,7 @@
 #import "BaseProgressView.h"
 
 @interface BaseCircleView : BaseProgressView
-
+@property (nonatomic,assign) CGFloat percent;
 - (void)show;
 
 - (void)hide;
