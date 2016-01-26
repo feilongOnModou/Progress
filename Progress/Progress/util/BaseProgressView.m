@@ -13,7 +13,7 @@
 #import "BaseWaveView.h"
 
 @interface BaseProgressView ()
-
+   
 @property (nonatomic , strong) BaseBgView * bgView;
 @property (nonatomic , strong) BaseCircleView * circleView;
 @property (nonatomic , strong) ChildrenCircleView * childrenCircleView;
