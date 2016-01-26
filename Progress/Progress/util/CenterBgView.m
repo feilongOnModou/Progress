@@ -1,20 +1,19 @@
 //
-//  BaseBgView.m
+//  CenterBgView.m
 //  Progress
 //
 //  Created by 宋飞龙 on 16/1/26.
 //  Copyright © 2016年 Mr Song. All rights reserved.
 //
 
-#import "BaseBgView.h"
+#import "CenterBgView.h"
 
-@implementation BaseBgView
+@implementation CenterBgView
 
-/*  
+
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
-    // Drawing code
     [self buildView];
 }
 
@@ -30,8 +29,5 @@
     self.backgroundColor = [UIColor whiteColor];
     self.layer.masksToBounds = YES;
     self.layer.cornerRadius = self.frame.size.width/2;
-    self.layer.borderWidth = 2;
-    self.layer.borderColor = [UIColor lightGrayColor].CGColor;
 }
-
 @end

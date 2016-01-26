@@ -9,6 +9,7 @@
 #import "ChildrenCircleView.h"
 
 @implementation ChildrenCircleView
+@synthesize percent = _percent;
 
 /*
 // Only override drawRect: if you perform custom drawing.

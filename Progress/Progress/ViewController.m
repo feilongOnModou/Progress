@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "BaseProgressView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIView *bgView;
 
 @end
 
@@ -16,6 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    BaseProgressView * baseView = [[BaseProgressView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+    baseView.percent = 0.5;
+    baseView.wavePercent = 0.3;
+    [baseView show];
+    [self.view addSubview:baseView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
