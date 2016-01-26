@@ -16,7 +16,6 @@
 		519B7F361C57452D00C7D8E6 /* ProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F351C57452D00C7D8E6 /* ProgressTests.m */; };
 		519B7F411C57452D00C7D8E6 /* ProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F401C57452D00C7D8E6 /* ProgressUITests.m */; };
 		519B7F5B1C57455E00C7D8E6 /* BaseProjressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F501C57455E00C7D8E6 /* BaseProjressView.m */; };
-		519B7F5C1C57455E00C7D8E6 /* BaseBgVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F521C57455E00C7D8E6 /* BaseBgVIew.m */; };
 		519B7F5D1C57455E00C7D8E6 /* BaseCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F541C57455E00C7D8E6 /* BaseCircleView.m */; };
 		519B7F5E1C57455E00C7D8E6 /* BasePointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F561C57455E00C7D8E6 /* BasePointView.m */; };
 		519B7F5F1C57455E00C7D8E6 /* ChildrenCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519B7F581C57455E00C7D8E6 /* ChildrenCircleView.m */; };
@@ -59,8 +58,6 @@
 		519B7F421C57452D00C7D8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		519B7F4F1C57455E00C7D8E6 /* BaseProjressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseProjressView.h; sourceTree = "<group>"; };
 		519B7F501C57455E00C7D8E6 /* BaseProjressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseProjressView.m; sourceTree = "<group>"; };
-		519B7F511C57455E00C7D8E6 /* BaseBgVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBgVIew.h; sourceTree = "<group>"; };
-		519B7F521C57455E00C7D8E6 /* BaseBgVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBgVIew.m; sourceTree = "<group>"; };
 		519B7F531C57455E00C7D8E6 /* BaseCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCircleView.h; sourceTree = "<group>"; };
 		519B7F541C57455E00C7D8E6 /* BaseCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCircleView.m; sourceTree = "<group>"; };
 		519B7F551C57455E00C7D8E6 /* BasePointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePointView.h; sourceTree = "<group>"; };
@@ -164,8 +161,6 @@
 			children = (
 				519B7F4F1C57455E00C7D8E6 /* BaseProjressView.h */,
 				519B7F501C57455E00C7D8E6 /* BaseProjressView.m */,
-				519B7F511C57455E00C7D8E6 /* BaseBgVIew.h */,
-				519B7F521C57455E00C7D8E6 /* BaseBgVIew.m */,
 				519B7F531C57455E00C7D8E6 /* BaseCircleView.h */,
 				519B7F541C57455E00C7D8E6 /* BaseCircleView.m */,
 				519B7F551C57455E00C7D8E6 /* BasePointView.h */,
@@ -309,7 +304,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				519B7F601C57455E00C7D8E6 /* BaseWaveView.m in Sources */,
-				519B7F5C1C57455E00C7D8E6 /* BaseBgVIew.m in Sources */,
 				519B7F231C57452D00C7D8E6 /* ViewController.m in Sources */,
 				519B7F201C57452D00C7D8E6 /* AppDelegate.m in Sources */,
 				519B7F1D1C57452D00C7D8E6 /* main.m in Sources */,
@@ -540,6 +534,7 @@
 				519B7F471C57452D00C7D8E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		519B7F481C57452D00C7D8E6 /* Build configuration list for PBXNativeTarget "ProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +543,7 @@
 				519B7F4A1C57452D00C7D8E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		519B7F4B1C57452D00C7D8E6 /* Build configuration list for PBXNativeTarget "ProgressUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +552,7 @@
 				519B7F4D1C57452D00C7D8E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
